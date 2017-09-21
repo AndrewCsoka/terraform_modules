@@ -29,7 +29,7 @@ module "sg_plex" {
   source = "github.com/AndrewCsoka/terraform_modules/tf_openstack_sg/sg_plex"
   security_group_name = "${var.security_group_name}-plex"
   region = "${var.region}"
-  access_cidr= ["${var.access_cidr}"]
+  access_cidr= "${var.access_cidr}"
 }
 ```
 

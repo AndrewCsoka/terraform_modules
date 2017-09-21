@@ -10,5 +10,5 @@ variable "region" {
 
 variable "access_cidr" {
   description = "The source CIDR block to allow traffic from"
-  type        = "list"
+  type        = "string"
 }
